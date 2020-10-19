@@ -1,0 +1,26 @@
+.info-search-result {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.info-search-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #737373;
+}
+
+.info-search-content {
+  padding-left: 5px;
+  color: #737373;
+}

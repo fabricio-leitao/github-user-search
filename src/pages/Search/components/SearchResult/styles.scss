@@ -1,0 +1,44 @@
+.search-result-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-result-information {
+  height: 250px;
+  width: 750px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-right: 25px;
+  padding-left: 15px;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+}
+.col-2 {
+  flex-direction: row;
+  margin-left: 45px;
+  margin-top: -70px;
+}
+.search-result-img {
+  width: 285px;
+  height: 280px;
+}
+.search-result-repository {
+  display: flex;
+  flex-direction: row;
+}
+.search-result-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #1890ff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
